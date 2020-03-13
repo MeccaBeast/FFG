@@ -1,0 +1,56 @@
+td,
+th {
+    text-align: center;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: left;
+}
+
+.square {
+    background: purple;
+    height: 240px;
+    width: 240px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.button:hover {
+    background-color: purple;
+}
+
+.sub-content {
+    font-size: 25px;
+    /*   text-shadow: 0 0 10px white; */
+    /*   font-style: oblique; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-content {
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    /*   text-shadow: 0 0 20px white; */
+}
+
+.align-content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.button:active {
+    background-color: purple;
+    box-shadow: 0 5px #383838;
+    transform: translateY(4px);
+}
+
+.button {
+    box-shadow: 0 9px #383838;
+    cursor: pointer;
+}
